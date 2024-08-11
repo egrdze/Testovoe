@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14662EE82C64E4BE00B40E74 /* Spar_TestovoeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662EE72C64E4BE00B40E74 /* Spar_TestovoeApp.swift */; };
+		14662EEC2C64E4BF00B40E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14662EEB2C64E4BF00B40E74 /* Assets.xcassets */; };
+		14662EEF2C64E4BF00B40E74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14662EEE2C64E4BF00B40E74 /* Preview Assets.xcassets */; };
+		14662EFC2C64E53600B40E74 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662EFB2C64E53600B40E74 /* Product.swift */; };
+		14662EFE2C64E56900B40E74 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662EFD2C64E56900B40E74 /* ProductViewModel.swift */; };
+		14662F002C64E59100B40E74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662EFF2C64E59100B40E74 /* ContentView.swift */; };
+		14662F072C64E5CA00B40E74 /* QuantitySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662F012C64E5CA00B40E74 /* QuantitySelector.swift */; };
+		14662F082C64E5CA00B40E74 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662F022C64E5CA00B40E74 /* PriceView.swift */; };
+		14662F092C64E5CA00B40E74 /* ProductInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662F032C64E5CA00B40E74 /* ProductInfo.swift */; };
+		14662F0A2C64E5CA00B40E74 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662F042C64E5CA00B40E74 /* BadgeView.swift */; };
+		14662F0B2C64E5CA00B40E74 /* SaleBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662F052C64E5CA00B40E74 /* SaleBadge.swift */; };
+		14662F0C2C64E5CA00B40E74 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662F062C64E5CA00B40E74 /* RatingView.swift */; };
+		14662F0F2C64E5EB00B40E74 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662F0D2C64E5EB00B40E74 /* ListView.swift */; };
+		14662F102C64E5EB00B40E74 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662F0E2C64E5EB00B40E74 /* CardView.swift */; };
+		14662F122C64E63B00B40E74 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14662F112C64E63B00B40E74 /* RoundedCorner.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14662EE42C64E4BE00B40E74 /* Spar-Testovoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spar-Testovoe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14662EE72C64E4BE00B40E74 /* Spar_TestovoeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spar_TestovoeApp.swift; sourceTree = "<group>"; };
+		14662EEB2C64E4BF00B40E74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14662EEE2C64E4BF00B40E74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14662EFB2C64E53600B40E74 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		14662EFD2C64E56900B40E74 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		14662EFF2C64E59100B40E74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14662F012C64E5CA00B40E74 /* QuantitySelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuantitySelector.swift; path = ../../../testovoe/testovoe/View/ViewModel/QuantitySelector.swift; sourceTree = "<group>"; };
+		14662F022C64E5CA00B40E74 /* PriceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PriceView.swift; path = ../../../testovoe/testovoe/View/ViewModel/PriceView.swift; sourceTree = "<group>"; };
+		14662F032C64E5CA00B40E74 /* ProductInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductInfo.swift; path = ../../../testovoe/testovoe/View/ViewModel/ProductInfo.swift; sourceTree = "<group>"; };
+		14662F042C64E5CA00B40E74 /* BadgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BadgeView.swift; path = ../../../testovoe/testovoe/View/ViewModel/BadgeView.swift; sourceTree = "<group>"; };
+		14662F052C64E5CA00B40E74 /* SaleBadge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaleBadge.swift; path = ../../../testovoe/testovoe/View/ViewModel/SaleBadge.swift; sourceTree = "<group>"; };
+		14662F062C64E5CA00B40E74 /* RatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RatingView.swift; path = ../../../testovoe/testovoe/View/ViewModel/RatingView.swift; sourceTree = "<group>"; };
+		14662F0D2C64E5EB00B40E74 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = ../../../testovoe/testovoe/View/ListView.swift; sourceTree = "<group>"; };
+		14662F0E2C64E5EB00B40E74 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = ../../../testovoe/testovoe/View/CardView.swift; sourceTree = "<group>"; };
+		14662F112C64E63B00B40E74 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14662EE12C64E4BE00B40E74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14662EDB2C64E4BE00B40E74 = {
+			isa = PBXGroup;
+			children = (
+				14662EF92C64E51200B40E74 /* Views */,
+				14662EFA2C64E51B00B40E74 /* ViewModels */,
+				14662EF82C64E50800B40E74 /* Models */,
+				14662EE62C64E4BE00B40E74 /* Spar-Testovoe */,
+				14662EE52C64E4BE00B40E74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14662EE52C64E4BE00B40E74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14662EE42C64E4BE00B40E74 /* Spar-Testovoe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14662EE62C64E4BE00B40E74 /* Spar-Testovoe */ = {
+			isa = PBXGroup;
+			children = (
+				14662EE72C64E4BE00B40E74 /* Spar_TestovoeApp.swift */,
+				14662EEB2C64E4BF00B40E74 /* Assets.xcassets */,
+				14662EED2C64E4BF00B40E74 /* Preview Content */,
+			);
+			path = "Spar-Testovoe";
+			sourceTree = "<group>";
+		};
+		14662EED2C64E4BF00B40E74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14662EEE2C64E4BF00B40E74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14662EF82C64E50800B40E74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14662EFB2C64E53600B40E74 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		14662EF92C64E51200B40E74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14662F042C64E5CA00B40E74 /* BadgeView.swift */,
+				14662F022C64E5CA00B40E74 /* PriceView.swift */,
+				14662F032C64E5CA00B40E74 /* ProductInfo.swift */,
+				14662F012C64E5CA00B40E74 /* QuantitySelector.swift */,
+				14662F0E2C64E5EB00B40E74 /* CardView.swift */,
+				14662F0D2C64E5EB00B40E74 /* ListView.swift */,
+				14662F062C64E5CA00B40E74 /* RatingView.swift */,
+				14662F052C64E5CA00B40E74 /* SaleBadge.swift */,
+				14662EFF2C64E59100B40E74 /* ContentView.swift */,
+				14662F112C64E63B00B40E74 /* RoundedCorner.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14662EFA2C64E51B00B40E74 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				14662EFD2C64E56900B40E74 /* ProductViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14662EE32C64E4BE00B40E74 /* Spar-Testovoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14662EF22C64E4BF00B40E74 /* Build configuration list for PBXNativeTarget "Spar-Testovoe" */;
+			buildPhases = (
+				14662EE02C64E4BE00B40E74 /* Sources */,
+				14662EE12C64E4BE00B40E74 /* Frameworks */,
+				14662EE22C64E4BE00B40E74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Spar-Testovoe";
+			productName = "Spar-Testovoe";
+			productReference = 14662EE42C64E4BE00B40E74 /* Spar-Testovoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14662EDC2C64E4BE00B40E74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					14662EE32C64E4BE00B40E74 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 14662EDF2C64E4BE00B40E74 /* Build configuration list for PBXProject "Spar-Testovoe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14662EDB2C64E4BE00B40E74;
+			productRefGroup = 14662EE52C64E4BE00B40E74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14662EE32C64E4BE00B40E74 /* Spar-Testovoe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14662EE22C64E4BE00B40E74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14662EEF2C64E4BF00B40E74 /* Preview Assets.xcassets in Resources */,
+				14662EEC2C64E4BF00B40E74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14662EE02C64E4BE00B40E74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14662F0A2C64E5CA00B40E74 /* BadgeView.swift in Sources */,
+				14662F0B2C64E5CA00B40E74 /* SaleBadge.swift in Sources */,
+				14662EE82C64E4BE00B40E74 /* Spar_TestovoeApp.swift in Sources */,
+				14662F0C2C64E5CA00B40E74 /* RatingView.swift in Sources */,
+				14662F122C64E63B00B40E74 /* RoundedCorner.swift in Sources */,
+				14662EFC2C64E53600B40E74 /* Product.swift in Sources */,
+				14662F082C64E5CA00B40E74 /* PriceView.swift in Sources */,
+				14662F072C64E5CA00B40E74 /* QuantitySelector.swift in Sources */,
+				14662F002C64E59100B40E74 /* ContentView.swift in Sources */,
+				14662F0F2C64E5EB00B40E74 /* ListView.swift in Sources */,
+				14662EFE2C64E56900B40E74 /* ProductViewModel.swift in Sources */,
+				14662F102C64E5EB00B40E74 /* CardView.swift in Sources */,
+				14662F092C64E5CA00B40E74 /* ProductInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14662EF02C64E4BF00B40E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14662EF12C64E4BF00B40E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14662EF32C64E4BF00B40E74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spar-Testovoe/Preview Content\"";
+				DEVELOPMENT_TEAM = P86U88M2S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "egrdze.Spar-Testovoe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14662EF42C64E4BF00B40E74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spar-Testovoe/Preview Content\"";
+				DEVELOPMENT_TEAM = P86U88M2S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "egrdze.Spar-Testovoe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14662EDF2C64E4BE00B40E74 /* Build configuration list for PBXProject "Spar-Testovoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14662EF02C64E4BF00B40E74 /* Debug */,
+				14662EF12C64E4BF00B40E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14662EF22C64E4BF00B40E74 /* Build configuration list for PBXNativeTarget "Spar-Testovoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14662EF32C64E4BF00B40E74 /* Debug */,
+				14662EF42C64E4BF00B40E74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14662EDC2C64E4BE00B40E74 /* Project object */;
+}
